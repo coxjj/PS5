@@ -21,6 +21,7 @@
 							</xsd:element>
 							<xsd:element name="publish_date" type="xsd:date" />
 							<xsd:element name="description" type="xsd:string" />
+							<xsd:element name="Cost" type="xsd:double" />
 						</xsd:sequence>
 						<xsd:attribute name="id" type="xsd:string" />
 					</xsd:complexType>

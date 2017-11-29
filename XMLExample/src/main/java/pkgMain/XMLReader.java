@@ -30,7 +30,7 @@ public class XMLReader {
 
 	
 	
-	private static Catalog ReadCatalog() {
+	public static Catalog ReadCatalog() {
 		Catalog cat = ReadXMLFile();
 		
 		System.out.println("cat ID " + cat.getId());
